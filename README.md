@@ -1,12 +1,74 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">
+  🧠 Gemini Chat — Interactive AI Chat
+</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  An interactive web application using the Google Gemini API to get streaming AI responses.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Description
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Gemini Chat** is a minimalist React web application that allows users to ask questions to the Google Gemini model and receive **real-time responses**.
+
+🔹 Supports query history (saved in `localStorage`)  
+🔹 Intuitive interface for all devices  
+🔹 Uses streaming text generation (character-by-character output)
+
+---
+
+## 🔧 Technologies
+
+- ⚛️ **React**
+- 🔌 **@google/genai** (Google Generative AI SDK)
+- 💾 **localStorage** — stores history locally
+- 📱 **Mobile-first** responsive design
+- 🔁 **Streaming API** — real-time text generation
+
+---
+
+## 📷 Screenshots
+
+<details>
+  <summary>Click to expand</summary>
+
+  ![image](https://github.com/user-attachments/assets/7fb041ee-9ff9-452d-9155-7c91221a98a6)
+
+</details>
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/gemini-chat.git
+cd gemini-chat
+npm install
+npm run dev
+
+
+---
+
+## 🔑 .env Configuration
+
+Create a .env file in the root of the project and add your API key:
+
+```ini
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+## 📱 Responsive Design
+
+The interface displays correctly on:
+
+
+- ✅ **Smartphones (iPhone / Android)**
+- ✅ **Tablets**
+- ✅ **Desktops**
+
+## 💬 Feedback
+
+If you have ideas, suggestions, or found a bug —
+open an issue or start a thread in Discussions.
+
